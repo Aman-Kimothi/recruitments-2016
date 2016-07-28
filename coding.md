@@ -43,12 +43,13 @@ d) None of the above
 
 What is the output of the following code?
 
-	unsigned int a = 32, b = 5, c = (a |= 0xA, b = ~b, c = a|(b&0xf));
+	unsigned int a = 32, b = 5, c = (a |= 0xA, b = ~b, c = a^(b&0xf));
 	printf("%d", c);
 
-a) 47
+a) 37
 b) 45
-c) 42
-d) None of the above
+c) 32
+d) 42
 
 --------------------------------------------------------------------------------
+
