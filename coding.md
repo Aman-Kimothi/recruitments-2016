@@ -43,13 +43,30 @@ d) None of the above
 
 What is the output of the following code?
 
-	unsigned int a = 32, b = 5, c = (a |= 0xA, b = ~b, c = a^(b&0xf));
+	unsigned int a = 32, b = 5, c = (a ^= 0xA, b = ~b, c = a^(b&0xf));
 	printf("%d", c);
 
 a) 37
 b) 45
 c) 32
 d) 42
+
+--------------------------------------------------------------------------------
+
+What is the output of the following code?
+
+	int x = 5;
+	{
+		int x = x == ++x, y = x;
+		y = x++;
+		printf("%d %d ", x, y);
+	}
+	printf("%d", x);
+
+a) 1 0 6
+b) 2 1 5
+c) 2 0 5
+d) NOTA
 
 --------------------------------------------------------------------------------
 
