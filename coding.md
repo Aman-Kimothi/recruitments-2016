@@ -12,3 +12,32 @@ d) None of the above
 
 --------------------------------------------------------------------------------
 
+What is the output of the following code when compiled on an 64-bit machine?
+
+	struct node {
+		char val;
+		void* ptr;
+	};
+
+	struct node p[2];
+	printf("%x", (unsigned int)&p[1] - (unsigned int)p);
+
+a) 1
+b) 5
+c) 8
+d) 10
+
+--------------------------------------------------------------------------------
+
+What is the output of the following code?
+
+	int i = 0;
+	printf("%d%d", ((++i % 1) ? i : i + 1), ((i++ % 1) ? i + 1 : i) );
+
+a) 21
+b) 11
+c) 31
+d) None of these
+
+--------------------------------------------------------------------------------
+
