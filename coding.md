@@ -57,16 +57,35 @@ What is the output of the following code?
 
 	int x = 5;
 	{
-		int x = x == ++x, y = x;
-		y = x++;
-		printf("%d %d ", x, y);
+		int x = x == ++x;
+		printf("%d %d ", x++, x);
 	}
 	printf("%d", x);
 
-a) 1 0 6
-b) 2 1 5
-c) 2 0 5
+a) 0 1 6
+b) 1 2 5
+c) 0 2 5
 d) NOTA
+
+--------------------------------------------------------------------------------
+
+What is the output of the following code?
+
+	int x = 2;
+	int y = 0;
+	for ( ; y < 10; ++y) {
+		if (y % x == 0)
+			continue;  
+		else if (y == 8)
+			break;
+		else
+			printf("%d ", y);
+	}
+
+a) 1 3 5 7
+b) 0 2 4 6
+c) 1 3 5 7 9
+d) None of the above
 
 --------------------------------------------------------------------------------
 

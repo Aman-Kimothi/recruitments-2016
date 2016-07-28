@@ -4,9 +4,8 @@ int main() {
 	
 	int x = 5;
 	{
-		int x = x == ++x, y = x;
-		y = x++;
-		printf("%d %d ", x, y);
+		int x = x == ++x;
+		printf("%d %d ", x++, x);
 	}
 	printf("%d", x);
 
