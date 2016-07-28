@@ -37,7 +37,18 @@ What is the output of the following code?
 a) 21
 b) 11
 c) 31
-d) None of these
+d) None of the above
 
 --------------------------------------------------------------------------------
 
+What is the output of the following code?
+
+	unsigned int a = 32, b = 5, c = (a |= 0xA, b = ~b, c = a|(b&0xf));
+	printf("%d", c);
+
+a) 47
+b) 45
+c) 42
+d) None of the above
+
+--------------------------------------------------------------------------------
