@@ -108,7 +108,7 @@ times, ```s = x * y```.
 
 10.
 
-**answer:** 3. X'Z + XY
+**answer:** 3. ```X'Z + XY```
 
 **explaination:**
 boolean algebra.
