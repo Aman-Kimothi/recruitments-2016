@@ -1,21 +1,22 @@
-1) What is the output of the following code?
+1. What is the output of the following code?
 
+```c
 	char str[] = "rythm";
 	char *p = str;
 
 	printf("%s", p +++ (127 ^ 125));
+```
 
-a) ythm
-b) thm
-c) hm
-d) None of the above
-
-ans: b)
+1. ```ythm```
+2. ```thm```
+3. ```hm```
+4. None of the above
 
 --------------------------------------------------------------------------------
 
-2) What is the output of the following code when compiled on an 64-bit machine?
+2. What is the output of the following code when compiled on an 64-bit machine?
 
+```c
 	struct node {
 		char val;
 		void* ptr;
@@ -23,27 +24,26 @@ ans: b)
 
 	struct node p[2];
 	printf("%x", (unsigned int)&p[1] - (unsigned int)p);
+```
 
-a) 1
-b) 5
-c) 8
-d) 10
-
-ans: d)
+1. ```1```
+2. ```5```
+3. ```8```
+4. ```10```
 
 --------------------------------------------------------------------------------
 
-3) What is the output of the following code?
+3. What is the output of the following code?
 
+```c
 	int i = 0;
 	printf("%d%d", ((++i % 1) ? i : i + 1), ((i++ % 1) ? i + 1 : i) );
+```
 
-a) 21
-b) 11
-c) 31
-d) None of the above
-
-ans: c)
+1. ```21```
+2. ```11```
+3. ```31```
+4. None of the above
 
 --------------------------------------------------------------------------------
 
@@ -85,7 +85,7 @@ ans: b) 1 2 5
 	int y = 0;
 	for ( ; y < 10; ++y) {
 		if (y % x == 0)
-			continue;  
+			continue;
 		else if (y == 8)
 			break;
 		else
@@ -116,7 +116,7 @@ b) 2 3 4 5 6
 c) 2 4 8 16 32
 d) 2 5 12 27 58
 
-ans: d) 
+ans: d)
 
 --------------------------------------------------------------------------------
 
@@ -160,7 +160,7 @@ ans: b) 660
 
 --------------------------------------------------------------------------------
 
-10) XY + X'Z + YZ = 
+10) XY + X'Z + YZ =
 
 a) X'Z + X'Y
 b) XZ + XY'
@@ -181,7 +181,7 @@ b) runtime error
 c) -5
 d) 0xfffffffb
 
-ans: c) 
+ans: c)
 
 --------------------------------------------------------------------------------
 
@@ -246,7 +246,7 @@ ans: c)
 
 --------------------------------------------------------------------------------
 
-16) 
+16)
 
   int a = 5, b = -7, c = 0, d;
   d = ++a && ++b || ++c;
@@ -312,7 +312,7 @@ c) 5 5
 d) 5 4
 
 
-21) 
+21)
 
 	void swap(int *a, int *b) {
 		*a ^= *b;
