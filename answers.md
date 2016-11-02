@@ -147,7 +147,7 @@ between ```f``` and ```i```. ```i``` is upcasted to a ```float```.
 
 **explaination:**
 order of precedence. the ```()``` are at a higher level of precedence than
-```||```.
+```||``` .
 
 --------------------------------------------------------------------------------
 
@@ -277,7 +277,7 @@ _destroys_ it.
 
 22.
 
-**answer:** 2. 0(log n)
+**answer:** 2. ```0(log n)```
 
 **explaination:**
 NA.

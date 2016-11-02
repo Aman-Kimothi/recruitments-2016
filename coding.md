@@ -1,4 +1,5 @@
-1. What is the output of the following code?
+1.
+What is the output of the following code?
 
 ```c
   char str[] = "rythm";
@@ -14,7 +15,8 @@
 
 --------------------------------------------------------------------------------
 
-2. What is the output of the following code when compiled on an 64-bit machine?
+2.
+What is the output of the following code when compiled on an 64-bit machine?
 
 ```c
   struct node {
@@ -33,7 +35,8 @@
 
 --------------------------------------------------------------------------------
 
-3. What is the output of the following code?
+3.
+What is the output of the following code?
 
 ```c
   int i = 0;
@@ -47,7 +50,8 @@
 
 --------------------------------------------------------------------------------
 
-4. What is the output of the following code?
+4.
+What is the output of the following code?
 
 ```c
   unsigned int a = 32, b = 5, c = (a ^= 0xA, b = ~b, c = a^(b&0xf));
@@ -61,7 +65,8 @@
 
 --------------------------------------------------------------------------------
 
-5. What is the output of the following code?
+5.
+What is the output of the following code?
 
 ```c
   int x = 5;
@@ -79,9 +84,10 @@
 
 --------------------------------------------------------------------------------
 
-6. What is the output of the following code?
+6.
+What is the output of the following code?
 
-```
+```c
   int x = 2;
   int y = 0;
   for ( ; y < 10; ++y) {
@@ -101,7 +107,8 @@
 
 --------------------------------------------------------------------------------
 
-7. What is the output of the following code?
+7.
+What is the output of the following code?
 
 ```c
   void iter(int *i) {
@@ -120,7 +127,8 @@
 
 --------------------------------------------------------------------------------
 
-8. What is the output of the following code?
+8.
+What is the output of the following code?
 
 ```c
   int sum=0;
@@ -142,7 +150,8 @@
 
 --------------------------------------------------------------------------------
 
-9. What is the value of ```s``` after execting this code?
+9.
+What is the value of ```s``` after execting this code?
 
 ```c
   int i, j, s = 0;
@@ -160,7 +169,8 @@
 
 --------------------------------------------------------------------------------
 
-10. XY + X'Z + YZ =
+10.
+XY + X'Z + YZ =
 
 1. X'Z + X'Y
 2. XZ + XY'
@@ -169,7 +179,8 @@
 
 --------------------------------------------------------------------------------
 
-11. What is the output of the following code?
+11.
+What is the output of the following code?
 
 ```c
   unsigned int x = -5;
@@ -183,7 +194,8 @@
 
 --------------------------------------------------------------------------------
 
-12. What is the output of the following code?
+12.
+What is the output of the following code?
 
 ```c
   int x = 1;
@@ -202,7 +214,8 @@
 
 --------------------------------------------------------------------------------
 
-13. What is the output of the following code?
+13.
+What is the output of the following code?
 
 ```c
   int a  = 5, b = 10, c = 17;
@@ -217,12 +230,14 @@
 
 --------------------------------------------------------------------------------
 
-14. Mark Watney, who is stranded on Mars after being mistaken dead by his crew,
+14.
+Mark Watney, who is stranded on Mars after being mistaken dead by his crew,
 find the _Pathfinder_, a rover from a previous mission. He wants to use it's
 camera to transmit messages to earth. After initially using hexadecimal to code
 his messages in ASCII, he decides to switch to duodecimal system for improving
 the accuracy. Help the team at JPL encode the following message for Mark:
-STAY FROSTY
+
+```STAY FROSTY```
 
 1. 6B 70 55 75  5A 6A 67 6B 70 75
 2. 6B 70 55 75  5A 6B 67 70 71 75
@@ -231,8 +246,9 @@ STAY FROSTY
 
 --------------------------------------------------------------------------------
 
-15. What is the minimum height (h) of a Binary Tree with 1.2 million (n) nodes?
-(eg., n = 3, h = 1)
+15.
+What is the minimum height (h) of a Binary Tree with 1.2 million (n) nodes?
+(eg., ```n = 3, h = 1```)
 
 1. 18
 2. 19
@@ -242,6 +258,7 @@ STAY FROSTY
 --------------------------------------------------------------------------------
 
 16.
+What is the output of the following code snippet?
 
 ```c
   int a = 5, b = -7, c = 0, d;
@@ -257,6 +274,7 @@ STAY FROSTY
 --------------------------------------------------------------------------------
 
 17.
+What is the output of the following code snippet?
 
 ```c
   printf("%x", ( ((-7 << 28) & 0xffffffff) >> 28) );
@@ -270,7 +288,6 @@ STAY FROSTY
 --------------------------------------------------------------------------------
 
 18.
-
 Debugging data transmission from two peripherals, you find that they
 are transmitting data with the wrong endian-ness. Assuming a 32-bit environment,
 `output` be the XOR-ed data from two peripherals, what will be the (correct)
@@ -284,7 +301,6 @@ value of `output` if the data is: 0xEFBEADDE, and 0x2B0AD1B
 --------------------------------------------------------------------------------
 
 19.
-
 When getting wrong data values from sensors, you observe that data is being sent
 LSB-first. Assuming the sensor only sends character values (A-Z, a-z), what is
 the probability that you got a correct value upon receiving one value?
@@ -296,7 +312,8 @@ the probability that you got a correct value upon receiving one value?
 
 --------------------------------------------------------------------------------
 
-20. What is the output of the following code snippet on a 32-bit compiler?
+20.
+What is the output of the following code snippet on a 32-bit compiler?
 
 ```c
   char arr[5];
@@ -311,6 +328,7 @@ the probability that you got a correct value upon receiving one value?
 --------------------------------------------------------------------------------
 
 21.
+What is the output of the following code snippet?
 
 ```c
   void swap(int *a, int *b) {
@@ -332,10 +350,11 @@ the probability that you got a correct value upon receiving one value?
 
 --------------------------------------------------------------------------------
 
-22. What is the average search complexity of a Binary Search Tree ?
+22.
+What is the average search complexity of a Binary Search Tree?
 
-1. 0(n)
-2. 0(log n)
-3. 0(n log n)
+1. ```0(n)```
+2. ```0(log n)```
+3. ```0(n log n)```
 4. None of the Above
 
